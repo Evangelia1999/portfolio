@@ -68,32 +68,9 @@ This portfolio is built from real research work.
 
 ---
 
-# What This Portfolio Signals
-
-- computational chemistry depth
-- materials-domain relevance
-- workflow ownership
-- reproducibility mindset
-- ability to turn raw simulation output into useful scientific interpretation
-
----
-
 # Target Roles
 
 - Computational Chemist
 - Computational Materials Scientist
 - Molecular Modeling Scientist
 - Scientific Programmer for Chemistry / Materials R&D
-
----
-
-# Portfolio Principle
-
-The strongest chemistry portfolios do not try to look like software portfolios.
-
-They show:
-
-- real scientific questions
-- real computational workflows
-- real analysis
-- real research judgment
