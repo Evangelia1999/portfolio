@@ -1,0 +1,69 @@
+&CONTROL
+  calculation   = 'vc-relax',
+  prefix        = 'a_berlinite_vc',
+  outdir        = '/home/ubuntu/Computational-Chemistry/DFT/QEspresso/berlinite/tmp_vc',
+  pseudo_dir    = '../01_pseudos_library',
+  restart_mode  = 'restart',                    ! change to 'restart' when resuming
+  disk_io       = 'medium',                          ! writes density & wavefunctions each SCF
+  wf_collect    = .true.,                            ! store WFs in single files for restart
+  tprnfor       = .true.,
+  tstress       = .true.,
+  verbosity     = 'high',
+  nstep         = 100,                               ! max ionic+cell steps
+  forc_conv_thr = 1.0d-3,                            
+/
+&SYSTEM
+  ibrav         = 0,
+  nat           = 18,
+  ntyp          = 3,
+  ecutwfc       = 80,
+  ecutrho       = 640,
+  occupations   = 'fixed',
+  input_dft     = 'PBE',
+/
+&ELECTRONS
+  conv_thr      = 1.0d-8,
+  mixing_beta   = 0.3,
+  diagonalization = 'david',
+/
+&IONS
+  ion_dynamics  = 'bfgs',
+/
+&CELL
+  cell_dynamics = 'bfgs',
+  press         = 0.0d0,                             
+  press_conv_thr = 0.5d0,
+  cell_dofree   = 'all',
+/
+K_POINTS automatic
+  4 4 3  0 0 0
+
+CELL_PARAMETERS angstrom
+4.94380000000000 0.00000000000000 0.00000000000000
+-2.47190000000000 4.28145639122951 0.00000000000000
+0.00000000000000 0.00000000000000 10.94980000000000
+
+ATOMIC_SPECIES
+  Al 26.9815385 Al.pbe-n-kjpaw_psl.1.0.0.UPF
+  P 30.973761998 P.pbe-n-kjpaw_psl.1.0.0.UPF
+  O 15.999 O.pbe-n-kjpaw_psl.1.0.0.UPF
+
+ATOMIC_POSITIONS angstrom
+Al               2.3911266837       -0.0000000000        1.8650159847
+Al              -1.1955633419        2.0707764519        9.3250799235
+Al               1.3358730018        2.3137999116        5.5950479541
+P                2.3902122393        0.0000000000        7.4600639389
+P               -1.1951061196        2.0699845196        3.7300319694
+P                1.3363302241        2.3145918439       -0.0000000000
+O                1.4046635667        1.2341800926        1.1023842740
+O                0.3664995296        1.8335643788       10.0877116342
+O                3.2917095911        0.5993842864        8.5624482129
+O                0.7602732474        3.7851920770        6.3576796647
+O                2.8979358733        2.5510119846        4.8324162435
+O               -1.1267727770        3.1503962708        2.6276476954
+O                1.4793539170        1.0823308553        6.8429509852
+O                0.1976490575        1.8223235009        4.3471449231
+O                3.3858697130        0.7399926456        3.1129190158
+O                0.8544333693        3.6445837178        0.6171129536
+O                2.7290854012        2.5622528625       10.5729829547
+O               -1.0520824268        3.3022455082        8.0771768924

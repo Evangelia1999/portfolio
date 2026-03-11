@@ -1,0 +1,231 @@
+[melamine]
+Smallest (most negative) energy:
+melamine_1	-446.328810965337
+
+All energies (ascending):
+melamine_1	-446.328810965337
+melamine_2	-446.328733015813
+
+[melamine_aryl]
+Smallest (most negative) energy:
+melamine_aryl_6	-3652.655057817984
+
+All energies (ascending):
+melamine_aryl_6	-3652.655057817984
+melamine_aryl_1	-3652.652311194193
+melamine_aryl_9	-3652.651347189594
+melamine_aryl_20	-3652.649862737926
+melamine_aryl_3	-3652.649835966659
+melamine_aryl_13	-3652.649145517177
+melamine_aryl_5	-3652.649106809215
+melamine_aryl_26	-3652.648882268939
+melamine_aryl_19	-3652.648507935819
+melamine_aryl_28	-3652.647982904949
+melamine_aryl_4	-3652.647758039242
+melamine_aryl_17	-3652.647757291005
+melamine_aryl_30	-3652.647515364254
+melamine_aryl_29	-3652.647259512860
+melamine_aryl_14	-3652.647145793090
+melamine_aryl_18	-3652.647131356021
+melamine_aryl_2	-3652.647128864270
+melamine_aryl_21	-3652.646956219955
+melamine_aryl_16	-3652.646413844614
+melamine_aryl_27	-3652.646302356240
+melamine_aryl_23	-3652.645997950104
+melamine_aryl_7	-3652.645803294515
+melamine_aryl_15	-3652.645689920651
+melamine_aryl_11	-3652.645594284555
+melamine_aryl_22	-3652.645082992826
+melamine_aryl_10	-3652.644894067858
+melamine_aryl_25	-3652.643367890591
+melamine_aryl_8	-3652.642118708107
+melamine_aryl_24	-3652.640954300947
+melamine_aryl_12	-3652.637685640311
+
+[melamine_ch3]
+Smallest (most negative) energy:
+melamine_ch3_1	-2502.766662375805
+
+All energies (ascending):
+melamine_ch3_1	-2502.766662375805
+melamine_ch3_15	-2502.766131461753
+melamine_ch3_3	-2502.765468326174
+melamine_ch3_12	-2502.764813460775
+melamine_ch3_11	-2502.762133560118
+melamine_ch3_10	-2502.762093622360
+melamine_ch3_5	-2502.762065221148
+melamine_ch3_2	-2502.761384796146
+melamine_ch3_4	-2502.761008439918
+melamine_ch3_7	-2502.760890569996
+melamine_ch3_9	-2502.760881721073
+melamine_ch3_13	-2502.759476848157
+melamine_ch3_14	-2502.758592475675
+melamine_ch3_6	-2502.757658924475
+melamine_ch3_8	
+
+[melamine_ethyl]
+Smallest (most negative) energy:
+melamine_ethyl_22	-2738.549103167225
+
+All energies (ascending):
+melamine_ethyl_22	-2738.549103167225
+melamine_ethyl_17	-2738.548315565293
+melamine_ethyl_24	-2738.547541738012
+melamine_ethyl_3	-2738.542380412171
+melamine_ethyl_12	-2738.541843136168
+melamine_ethyl_10	-2738.541697660356
+melamine_ethyl_6	-2738.541433654269
+melamine_ethyl_26	-2738.541148175384
+melamine_ethyl_2	-2738.540815218204
+melamine_ethyl_9	-2738.540794142358
+melamine_ethyl_21	-2738.540703859341
+melamine_ethyl_7	-2738.540510789297
+melamine_ethyl_13	-2738.540385552657
+melamine_ethyl_18	-2738.539889905232
+melamine_ethyl_20	-2738.539773132891
+melamine_ethyl_1	-2738.539695607759
+melamine_ethyl_28	-2738.539227124566
+melamine_ethyl_5	-2738.538953682603
+melamine_ethyl_27	-2738.538355151064
+melamine_ethyl_25	-2738.538163480859
+melamine_ethyl_11	-2738.538041268685
+melamine_ethyl_14	-2738.537961904451
+melamine_ethyl_4	-2738.537925948298
+melamine_ethyl_16	-2738.537860262369
+melamine_ethyl_15	-2738.537638594074
+melamine_ethyl_8	-2738.537590337967
+melamine_ethyl_29	-2738.536082864942
+melamine_ethyl_30	-2738.536079258581
+melamine_ethyl_23	-2738.532962037940
+melamine_ethyl_19	-2738.532887611660
+
+[melamine_h]
+Smallest (most negative) energy:
+melamine_h_2	-2267.164559454186
+
+All energies (ascending):
+melamine_h_2	-2267.164559454186
+melamine_h_1	-2267.164540593741
+melamine_h_3	-2267.164514842691
+melamine_h_4	-2267.160884467910
+
+[p_phenyldiamine]
+Smallest (most negative) energy:
+p_phenyldiamine_1	-342.788575234194
+
+All energies (ascending):
+p_phenyldiamine_1	-342.788575234194
+p_phenyldiamine_2	-342.788454287208
+
+[p_phenyldiamine_aryl]
+Smallest (most negative) energy:
+p_phenyldiamine_aryl_18	-2480.334320421282
+
+All energies (ascending):
+p_phenyldiamine_aryl_18	-2480.334320421282
+p_phenyldiamine_aryl_24	-2480.333062596057
+p_phenyldiamine_aryl_22	-2480.332233518057
+p_phenyldiamine_aryl_20	-2480.330608044628
+p_phenyldiamine_aryl_1	-2480.330534259910
+p_phenyldiamine_aryl_5	-2480.330404802420
+p_phenyldiamine_aryl_14	-2480.329733786466
+p_phenyldiamine_aryl_2	-2480.329721818713
+p_phenyldiamine_aryl_13	-2480.329387206335
+p_phenyldiamine_aryl_9	-2480.329256362634
+p_phenyldiamine_aryl_8	-2480.327279962386
+p_phenyldiamine_aryl_26	-2480.327020509164
+p_phenyldiamine_aryl_6	-2480.327017916181
+p_phenyldiamine_aryl_27	-2480.326968864331
+p_phenyldiamine_aryl_28	-2480.326865910475
+p_phenyldiamine_aryl_16	-2480.326455351203
+p_phenyldiamine_aryl_29	-2480.326445631312
+p_phenyldiamine_aryl_7	-2480.326324636595
+p_phenyldiamine_aryl_12	-2480.326311719648
+p_phenyldiamine_aryl_19	-2480.325785174372
+p_phenyldiamine_aryl_3	-2480.325534369878
+p_phenyldiamine_aryl_23	-2480.325533558779
+p_phenyldiamine_aryl_4	-2480.325505732535
+p_phenyldiamine_aryl_10	-2480.325458629346
+p_phenyldiamine_aryl_11	-2480.325436448810
+p_phenyldiamine_aryl_25	-2480.325345794791
+p_phenyldiamine_aryl_17	-2480.325073232019
+p_phenyldiamine_aryl_30	-2480.324972276618
+p_phenyldiamine_aryl_15	-2480.324662832778
+p_phenyldiamine_aryl_21	-2480.322569338185
+
+[p_phenyldiamine_ch3]
+Smallest (most negative) energy:
+p_phenyldiamine_ch3_3	-1713.741398562327
+
+All energies (ascending):
+p_phenyldiamine_ch3_3	-1713.741398562327
+p_phenyldiamine_ch3_9	-1713.740646605748
+p_phenyldiamine_ch3_5	-1713.740140476191
+p_phenyldiamine_ch3_11	-1713.739993454810
+p_phenyldiamine_ch3_8	-1713.739892787456
+p_phenyldiamine_ch3_4	-1713.739814124561
+p_phenyldiamine_ch3_13	-1713.739099850443
+p_phenyldiamine_ch3_2	-1713.738805732806
+p_phenyldiamine_ch3_1	-1713.738729210763
+p_phenyldiamine_ch3_12	-1713.738434098502
+p_phenyldiamine_ch3_19	-1713.738103743093
+p_phenyldiamine_ch3_10	-1713.737344837021
+p_phenyldiamine_ch3_14	-1713.735835358312
+p_phenyldiamine_ch3_6	-1713.735079168301
+p_phenyldiamine_ch3_7	-1713.735010522764
+p_phenyldiamine_ch3_20	-1713.734123312021
+p_phenyldiamine_ch3_15	
+p_phenyldiamine_ch3_16	
+p_phenyldiamine_ch3_17	
+p_phenyldiamine_ch3_18	
+
+[p_phenyldiamine_ethyl]
+Smallest (most negative) energy:
+p_phenyldiamine_ethyl_2	-1870.923044073006
+
+All energies (ascending):
+p_phenyldiamine_ethyl_2	-1870.923044073006
+p_phenyldiamine_ethyl_18	-1870.922893887593
+p_phenyldiamine_ethyl_12	-1870.922737225030
+p_phenyldiamine_ethyl_5	-1870.922605184174
+p_phenyldiamine_ethyl_21	-1870.922563688501
+p_phenyldiamine_ethyl_4	-1870.922559306224
+p_phenyldiamine_ethyl_25	-1870.922528882447
+p_phenyldiamine_ethyl_11	-1870.922317270390
+p_phenyldiamine_ethyl_20	-1870.922269811768
+p_phenyldiamine_ethyl_10	-1870.922169330897
+p_phenyldiamine_ethyl_19	-1870.922155367587
+p_phenyldiamine_ethyl_7	-1870.922072632147
+p_phenyldiamine_ethyl_24	-1870.922028395067
+p_phenyldiamine_ethyl_23	-1870.921999162042
+p_phenyldiamine_ethyl_28	-1870.921914305196
+p_phenyldiamine_ethyl_1	-1870.921834584679
+p_phenyldiamine_ethyl_29	-1870.921832200955
+p_phenyldiamine_ethyl_15	-1870.921657213474
+p_phenyldiamine_ethyl_3	-1870.920290985797
+p_phenyldiamine_ethyl_27	-1870.920277579256
+p_phenyldiamine_ethyl_22	-1870.920192304580
+p_phenyldiamine_ethyl_6	-1870.920120203309
+p_phenyldiamine_ethyl_16	-1870.919969152336
+p_phenyldiamine_ethyl_8	-1870.919746118734
+p_phenyldiamine_ethyl_14	-1870.919397906717
+p_phenyldiamine_ethyl_9	-1870.919286771067
+p_phenyldiamine_ethyl_17	-1870.918679705378
+p_phenyldiamine_ethyl_30	-1870.917953463481
+p_phenyldiamine_ethyl_13	-1870.917811994977
+p_phenyldiamine_ethyl_26	-1870.917385808541
+
+[p_phenyldiamine_h]
+Smallest (most negative) energy:
+p_phenyldiamine_h_8	-1556.670001768869
+
+All energies (ascending):
+p_phenyldiamine_h_8	-1556.670001768869
+p_phenyldiamine_h_3	-1556.669202006530
+p_phenyldiamine_h_6	-1556.669197991642
+p_phenyldiamine_h_4	-1556.669194384859
+p_phenyldiamine_h_5	-1556.668379148900
+p_phenyldiamine_h_2	-1556.668352962670
+p_phenyldiamine_h_1	-1556.668352496642
+p_phenyldiamine_h_7	-1556.668349884374
+

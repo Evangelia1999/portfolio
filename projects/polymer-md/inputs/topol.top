@@ -1,0 +1,11 @@
+; System topology for isotactic PP melt
+; L-OPLS: use the L-OPLS-enabled oplsaa.ff and activate -DLOPLS in .mdp
+
+#include "lopls/oplsaa.ff/forcefield.itp"
+#include "pp_chain_160.itp"
+
+[ system ]
+Isotactic polypropylene melt (160-mer x 75 chains)
+
+[ molecules ]
+PP160    75

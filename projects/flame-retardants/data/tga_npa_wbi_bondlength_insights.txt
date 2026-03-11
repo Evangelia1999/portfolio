@@ -1,0 +1,96 @@
+TGA + NPA/WBI/Bond-Length Insights (Phosphorus_FRs_project)
+
+Sources
+- TGA: C:\Users\evang\Desktop\FRs\combined_txt.txt (5 molecules)
+- NPA/WBI: DFT/Phosphorus_FRs_project/optimized_molecules/frequencies/NPA analysis/*.txt
+- Bond lengths: DFT/Phosphorus_FRs_project/optimized_molecules/frequencies/bond_lengths_*_freq2_*.txt
+
+Molecules included
+- melamine_aryl
+- melamine_methyl
+- melamine_ethyl
+- p_phenyldiamine_aryl
+- p_phenyldiamine_ethyl
+- p_phenyldiamine_ch3 (no TGA; computational only)
+
+TGA decomposition metrics (from combined_txt.txt)
+- melamine_aryl: T5=118.6 C, T10=152.4 C, T50=488.8 C, char@800C=22.0%, DTG peaks ~279-281 C
+- melamine_methyl: T5=212.6 C, T10=254.1 C, T50=313.2 C, char@800C=1.3%, DTG peak ~326 C
+- melamine_ethyl: T5=264.3 C, T10=281.0 C, T50=323.1 C, char@800C=0.5%, DTG peaks ~333-336 C
+- p_phenyldiamine_aryl: T5=194.9 C, T10=219.0 C, T50=484.7 C, char@800C=39.4%, DTG peaks ~246, 268, 284 C
+- p_phenyldiamine_ethyl: T5=337.7 C, T10=357.7 C, T50=398.2 C, char@800C=0.3%, DTG peaks ~404-406 C
+
+Average WBI (from bond_wbi.txt)
+- melamine_aryl: P=O 1.2748; P-O(ester) 0.6619; P-C 0.8330; N-C(linker) 0.9799
+- melamine_methyl: P=O 1.2654; P-O(ester) 0.6870; P-C 0.8261; N-C(linker) 0.9757
+- melamine_ethyl: P=O 1.2557; P-O(ester) 0.6917; P-C 0.8246; N-C(linker) 0.9754
+- p_phenyldiamine_aryl: P=O 1.2810; P-O(ester) 0.6687; P-C 0.8252; N-C(linker) 1.0023
+- p_phenyldiamine_ethyl: P=O 1.2651; P-O(ester) 0.6955; P-C 0.8233; N-C(linker) 0.9926
+- p_phenyldiamine_ch3: P=O 1.2887; P-O(ester) 0.6854; P-C 0.8243; N-C(linker) 0.9946
+
+Average bond lengths (Angstrom) (from bond_lengths_* files)
+- melamine_aryl: P=O 1.493151; P-O(ester) 1.642443; P-C 1.831245; N-C(linker) 1.442226
+- melamine_methyl: P=O 1.496929; P-O(ester) 1.631010; P-C 1.844388; N-C(linker) 1.437711
+- melamine_ethyl: P=O 1.505633; P-O(ester) 1.631635; P-C 1.847838; N-C(linker) 1.443723
+- p_phenyldiamine_aryl: P=O 1.495583; P-O(ester) 1.641489; P-C 1.843693; N-C(linker) 1.437479
+- p_phenyldiamine_ethyl: P=O 1.496725; P-O(ester) 1.633799; P-C 1.838326; N-C(linker) 1.454287
+- p_phenyldiamine_ch3: P=O 1.499982; P-O(ester) 1.633371; P-C 1.845616; N-C(linker) 1.442497
+
+Insights based on decomposition behavior
+1) Aryl substitution promotes char but lowers onset.
+   - Highest char yields are aryl: melamine_aryl (22.0%) and p_phenyldiamine_aryl (39.4%).
+   - These show lower T5/T10 relative to ethyl variants despite very high T50.
+   - Aryl P-O(ester) bonds are longer and WBI lower vs ethyl, consistent with earlier onset but stronger condensed-phase stabilization (char).
+
+2) Ethyl substitution raises onset but yields almost no char.
+   - melamine_ethyl and p_phenyldiamine_ethyl have the highest T5/T10 and single dominant DTG peaks.
+   - They also show the shortest P-O(ester) bonds and highest P-O(ester) WBI, consistent with greater bond strength and more volatile decomposition pathways, leading to low residue.
+
+3) Methyl is intermediate for onset but still low char.
+   - melamine_methyl T5/T10 sits between aryl and ethyl; char remains low (1.3%).
+   - P-O(ester) bond length and WBI are closer to ethyl than aryl, consistent with volatilization-dominated decomposition.
+
+4) Multi-step decomposition is most pronounced for aryl PPD.
+   - p_phenyldiamine_aryl shows three DTG peaks (multi-stage breakdown/condensation), while ethyl/methyl show single dominant events.
+
+5) Heuristic relationships across the 5 TGA samples (small n, interpret cautiously):
+   - Higher P-O(ester) WBI and shorter P-O(ester) length track with higher T5/T10 and lower char.
+   - Higher P=O WBI and longer P-O(ester) length track with higher char.
+
+Prediction for p_phenyldiamine_ch3 (no TGA data)
+- Its P-O(ester) length and WBI are close to the ethyl analog.
+- Expect onset between aryl and ethyl, but char closer to ethyl (low).
+
+
+
+Mechanistic interpretation (from TGA trends + DFT metrics)
+
+Three-step decomposition in aryl systems (why 3 DTG peaks)
+- Step 1 (low-mid T): cleavage of weaker peripheral groups (initial P–O(ester) scission and loss of small fragments).
+- Step 2 (mid T): further P–O/P–C scission plus onset of condensed-phase cross-linking.
+- Step 3 (higher T): slow breakdown of an aromatic/phosphorus-rich char network.
+
+Why aryls yield more char
+- Aromatic groups favor condensation and carbonization (ring stabilization and cross-linking), keeping mass in the solid phase.
+- Phosphorus functionalities can form P–O–P/polyphosphate-like structures, promoting condensed-phase stabilization.
+- Net effect: higher char, higher T50, and multi-step decomposition.
+
+Why alkyls show one dominant step and low char
+- Alkyl groups fragment into volatile products (olefins, small amines, alcohols), so little mass remains to form char.
+- Stronger P–O(ester) metrics (shorter P–O bonds and higher P–O WBI) concentrate decomposition into a narrower temperature window (single dominant DTG peak).
+- Limited aromatic stabilization suppresses long-lived condensed-phase networks.
+
+Likely reactions (generic FR phosphate behavior)
+- P–O(ester) cleavage → loss of alkoxy/aryloxy fragments.
+- P–C cleavage → detachment of linker groups.
+- Condensed-phase phosphorylation → P–O–P network formation.
+- Aromatization/cyclization (aryl) → stable carbonaceous char.
+- Volatilization (alkyl) → gaseous products, low residue.
+
+How DFT added value in this analysis
+- DFT provided quantitative bond-strength surrogates (WBI) and bond lengths that aligned with TGA trends:
+  - Shorter P–O(ester) + higher P–O WBI correlated with higher onset (T5/T10) but low char.
+  - Longer P–O(ester) + lower P–O WBI correlated with higher char and multi-step behavior.
+- NPA/WBI helped rank which bonds are most likely to break first (P–O vs P–C vs N–C), guiding a mechanistic explanation for the DTG peaks.
+- The computational data enabled predictions for molecules without TGA (e.g., p_phenyldiamine_ch3) by analogy to structural metrics.
+

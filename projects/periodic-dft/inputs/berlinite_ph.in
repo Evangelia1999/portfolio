@@ -1,0 +1,21 @@
+berlinite Gamma phonons (IR + Raman)
+&inputph
+  prefix        = 'a_berlinite_vc_scf'
+  outdir        = '/home/ubuntu/Computational-Chemistry/DFT/QEspresso/berlinite/tmp'
+
+  tr2_ph        = 1.0d-14
+  alpha_mix(1)  = 0.7
+  verbosity     = 'high'
+
+  amass(1)      = 26.9815385      ! Al
+  amass(2)      = 30.973761998    ! P
+  amass(3)      = 15.999          ! O
+
+  ldisp         = .false.
+  epsil         = .true.
+  trans         = .true.
+  lraman        = .false.
+
+  fildyn        = 'berlinite_Gamma.dyn'
+/
+0.0 0.0 0.0
