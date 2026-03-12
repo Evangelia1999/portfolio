@@ -54,10 +54,6 @@ flowchart LR
     F --> H[Operational Visibility]
 ```
 
-## Why This Is Worth Showing
-
-This is unusual in a chemistry portfolio. Most candidates can describe software they used; far fewer can show that they understand how the computational environment itself is provisioned and monitored.
-
 ## Selected Technical Evidence
 
 ### Bootstrap Automation
@@ -91,10 +87,3 @@ Dashboard provisioning shows awareness of:
 - Automating the deployment of Linux-based computational chemistry environments
 - Orchestrating multi-node CPU resources and scheduling pipelines via SLURM
 - Engineering robust, reproducible workflow infrastructures suitable for both academic and industrial R&D
-## Source Repository Coverage
-
-Primary source material for this case study came from:
-
-- `Computational-Chemistry/infra/bootstrap.sh`
-- `Computational-Chemistry/infra/slurm/slurm.conf`
-- `Computational-Chemistry/infra/monitoring/`
