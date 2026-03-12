@@ -44,39 +44,6 @@ polymer-md/
     └── topol.top
 ```
 
-### What Is Included
-
-- `inputs/em.mdp`
-  Energy-minimization settings for the initial cleanup stage.
-- `inputs/nvt.mdp`
-  NVT equilibration configuration for temperature stabilization.
-- `inputs/npt.mdp`
-  NPT equilibration configuration for density and pressure equilibration.
-- `inputs/md.mdp`
-  Production MD settings for sustained simulation.
-- `inputs/topol.top`
-  Representative top-level topology entry point for the polymer system.
-- `analysis/data_extract.sh`
-  Shell-based extraction workflow for post-processing simulation outputs.
-
-## Why This Is Worth Showing
-
-Many candidates claim MD experience, but strong portfolio evidence comes from showing that the simulation was structured properly, documented clearly, and paired with interpretable outputs. This project does that.
-
-## Representative Outputs
-
-### Density
-![Density plot](../../assets/figures/density.png)
-
-### Temperature
-![Temperature plot](../../assets/figures/temperature.png)
-
-### Pressure
-![Pressure plot](../../assets/figures/pressure.png)
-
-### Volume
-![Volume plot](../../assets/figures/volume.png)
-
 ## Core Competencies Demonstrated
 
 - Designing and executing production-scale molecular dynamics workflows for polymer systems
