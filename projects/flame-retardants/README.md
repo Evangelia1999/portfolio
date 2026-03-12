@@ -100,7 +100,7 @@ This project demonstrates more than software familiarity:
 - simulation-to-experiment correlation
 - ability to turn raw outputs into materials insight
 
-## Selected Visuals
+## Selected Visuals (only parts of the full molecules are shown)
 
 ![Project visual 1](../../assets/images/P1_clean.png)
 
